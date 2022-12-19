@@ -88,3 +88,31 @@ elif b == c:
     print('b and c are equal')
 else:
     print('all the numbers are equal')
+    
+# __________________________________________________________________________
+l = [1,2,3,4,5,6]
+for i in l:
+    print(i)
+    
+n = len(l)
+print(n)
+
+for i in range(n):
+    print(l[i])
+    
+a = 5
+b = 2
+
+while a>=b:
+    print(a,b)
+    b+=1
+    
+# ____________________________________________________________________
+# functions are resuable piece of code which we can define and call whenever we need
+
+def mul(a, b):
+    print(a*b)
+    
+mul(4, 3)
+
+print(5//2)
