@@ -28,3 +28,32 @@ print(l)
 print(l.index(85))
 print(l[5])
 print(l[8])
+print(len(l))
+
+
+a = [1,2,3,4,5,6,7,8,9,10]
+a[1] = 5
+print(a)
+b = 6
+c = a.index(b)
+print(c)
+
+
+t = (1,2,2,3,4,5)
+print(t)
+
+# assigning the tuple values
+'''assigning the tuple values'''
+
+d = {1:2, 'a':5, 'b':4}
+print(d)
+print(d.keys())
+print(d.values())
+print(d.items())
+
+d[1] = 10
+print(d)
+d[0] = 4
+print(d)
+d[2] = 7
+print(d)
