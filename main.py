@@ -57,3 +57,34 @@ d[0] = 4
 print(d)
 d[2] = 7
 print(d)
+
+
+# _________________________________________________________________
+a = 8
+b = 5
+
+if a == b:
+    print('both the numbers are same')
+elif a > b:
+    print('a is greater than b')
+else:
+    print('b is greater than a')
+    
+a = 3
+b = 7
+c = 7
+
+if a>b and a>c:
+    print('a is gratest')
+elif b>a and b>c:
+    print('b is greatest')
+elif c>a and c>b:
+    print('c s greatest')
+elif a == b:
+    print('a and b are equal')
+elif a == c:
+    print('a and c are equal')
+elif b == c:
+    print('b and c are equal')
+else:
+    print('all the numbers are equal')
