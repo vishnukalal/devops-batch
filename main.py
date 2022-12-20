@@ -116,3 +116,44 @@ def mul(a, b):
 mul(4, 3)
 
 print(5//2)
+
+
+# + ---> addition
+# - ---> sub
+# * ---> multi
+# / ---> division (float)
+# // ---> dicision (integer)
+# % ---> reminder from division
+
+
+def abc(a, b):
+    def subtract(a,b):
+        return a-b
+    return subtract(a,b)
+
+a = 2
+b = 1
+print(abc(a, b))
+
+
+class math:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+    
+    def subtract(self):
+        return self.a-self.b
+    def multiply(self):
+        return self.a*self.b
+    def divide(self):
+        return self.a//self.b
+    def reminder(self):
+        return self.a%self.b
+        
+mat = math(5, 2)
+s = mat.multiply()
+print(s)
+t = mat.divide()
+print(t)
+u = mat.reminder()
+print(u)
