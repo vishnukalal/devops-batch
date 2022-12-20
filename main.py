@@ -157,3 +157,27 @@ t = mat.divide()
 print(t)
 u = mat.reminder()
 print(u)
+
+class ABC(math):
+    print('inside abc')
+    
+abc = ABC(8,2)
+print(abc.subtract())
+
+class A:
+    a = 10
+    _b = 20
+    __c = 30
+    print(a+_b+__c)
+    
+d = A
+print(d.a)
+print(d._b)
+
+import datetime
+
+today = datetime.date.today()
+print(today)
+
+time = datetime.datetime.now()
+print(time)
